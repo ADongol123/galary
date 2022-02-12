@@ -1,0 +1,47 @@
+.app{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.appmain__first > input{
+  height: 32px;
+  margin-top: 20px;
+  width: 150px;
+  border:3px solid #D4F1F9;
+  border-radius: 10px;
+}
+.appmain__first >h1{
+  font-size: 25px;
+}
+.appmain__first > Button{
+  margin-left: 10px;
+  height: 35px;
+  margin-top: -5px;
+}
+.app > h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.appimage__main{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ width: 80vw;
+ border-radius: 30px;
+ height: auto;
+}
+.app__image{
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
